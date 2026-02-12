@@ -1,0 +1,186 @@
+[
+    {
+        "firstName": "Aarav",
+        "lastName": "Sharma",
+        "dateOfBirth": "1995-03-15",
+        "countryCode": "+91",
+        "countryName": "India",
+        "phoneNumber": "9876543210"
+    },
+    {
+        "firstName": "Priya",
+        "lastName": "Patel",
+        "dateOfBirth": "1990-07-22",
+        "countryCode": "+91",
+        "countryName": "India",
+        "phoneNumber": "9876543211"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Smith",
+        "dateOfBirth": "1988-11-05",
+        "countryCode": "+1",
+        "countryName": "United States",
+        "phoneNumber": "2125551234"
+    },
+    {
+        "firstName": "Emily",
+        "lastName": "Johnson",
+        "dateOfBirth": "1992-01-30",
+        "countryCode": "+1",
+        "countryName": "United States",
+        "phoneNumber": "3105559876"
+    },
+    {
+        "firstName": "James",
+        "lastName": "Wilson",
+        "dateOfBirth": "1985-06-18",
+        "countryCode": "+44",
+        "countryName": "United Kingdom",
+        "phoneNumber": "7911123456"
+    },
+    {
+        "firstName": "Sophie",
+        "lastName": "Brown",
+        "dateOfBirth": "1998-09-12",
+        "countryCode": "+44",
+        "countryName": "United Kingdom",
+        "phoneNumber": "7922234567"
+    },
+    {
+        "firstName": "Lucas",
+        "lastName": "Müller",
+        "dateOfBirth": "1991-04-25",
+        "countryCode": "+49",
+        "countryName": "Germany",
+        "phoneNumber": "1511234567"
+    },
+    {
+        "firstName": "Anna",
+        "lastName": "Schmidt",
+        "dateOfBirth": "1993-12-08",
+        "countryCode": "+49",
+        "countryName": "Germany",
+        "phoneNumber": "1522345678"
+    },
+    {
+        "firstName": "Yuki",
+        "lastName": "Tanaka",
+        "dateOfBirth": "1996-02-14",
+        "countryCode": "+81",
+        "countryName": "Japan",
+        "phoneNumber": "9012345678"
+    },
+    {
+        "firstName": "Haruto",
+        "lastName": "Suzuki",
+        "dateOfBirth": "1987-08-20",
+        "countryCode": "+81",
+        "countryName": "Japan",
+        "phoneNumber": "8023456789"
+    },
+    {
+        "firstName": "Marie",
+        "lastName": "Dupont",
+        "dateOfBirth": "1994-05-11",
+        "countryCode": "+33",
+        "countryName": "France",
+        "phoneNumber": "6123456789"
+    },
+    {
+        "firstName": "Pierre",
+        "lastName": "Martin",
+        "dateOfBirth": "1989-10-03",
+        "countryCode": "+33",
+        "countryName": "France",
+        "phoneNumber": "6234567890"
+    },
+    {
+        "firstName": "Chen",
+        "lastName": "Wei",
+        "dateOfBirth": "1997-07-28",
+        "countryCode": "+86",
+        "countryName": "China",
+        "phoneNumber": "1381234567"
+    },
+    {
+        "firstName": "Li",
+        "lastName": "Xia",
+        "dateOfBirth": "2000-03-19",
+        "countryCode": "+86",
+        "countryName": "China",
+        "phoneNumber": "1392345678"
+    },
+    {
+        "firstName": "Carlos",
+        "lastName": "Garcia",
+        "dateOfBirth": "1986-11-15",
+        "countryCode": "+52",
+        "countryName": "Mexico",
+        "phoneNumber": "5512345678"
+    },
+    {
+        "firstName": "Maria",
+        "lastName": "Lopez",
+        "dateOfBirth": "1999-01-07",
+        "countryCode": "+52",
+        "countryName": "Mexico",
+        "phoneNumber": "5523456789"
+    },
+    {
+        "firstName": "Ahmed",
+        "lastName": "Hassan",
+        "dateOfBirth": "1993-09-25",
+        "countryCode": "+971",
+        "countryName": "UAE",
+        "phoneNumber": "5012345678"
+    },
+    {
+        "firstName": "Fatima",
+        "lastName": "Ali",
+        "dateOfBirth": "1995-06-30",
+        "countryCode": "+971",
+        "countryName": "UAE",
+        "phoneNumber": "5023456789"
+    },
+    {
+        "firstName": "Liam",
+        "lastName": "O'Brien",
+        "dateOfBirth": "1991-12-22",
+        "countryCode": "+353",
+        "countryName": "Ireland",
+        "phoneNumber": "8512345678"
+    },
+    {
+        "firstName": "Emma",
+        "lastName": "Anderson",
+        "dateOfBirth": "1988-04-17",
+        "countryCode": "+61",
+        "countryName": "Australia",
+        "phoneNumber": "4123456789"
+    },
+    {
+        "firstName": "Noah",
+        "lastName": "Kim",
+        "dateOfBirth": "1996-08-09",
+        "countryCode": "+82",
+        "countryName": "South Korea",
+        "phoneNumber": "1012345678"
+    },
+    {
+        "firstName": "Isabella",
+        "lastName": "Rossi",
+        "dateOfBirth": "1994-02-28",
+        "countryCode": "+39",
+        "countryName": "Italy",
+        "phoneNumber": "3312345678"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Santos",
+        "dateOfBirth": "2001-10-14",
+        "countryCode": "+55",
+        "countryName": "Brazil",
+        "phoneNumber": "1198765432"
+    }
+]

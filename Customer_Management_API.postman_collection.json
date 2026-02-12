@@ -1,0 +1,181 @@
+{
+    "info": {
+        "_postman_id": "customer-mgmt-app",
+        "name": "Customer Management API",
+        "description": "API collection for the Customer Management App. Covers all CRUD operations, search, filtering, sorting, and CSV export.",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "baseUrl",
+            "value": "http://localhost:8080/api",
+            "type": "string"
+        }
+    ],
+    "item": [
+        {
+            "name": "Customers",
+            "item": [
+                {
+                    "name": "List Customers",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "description": "Fetch paginated list of customers. Enable optional query params as needed for search, filter, and sort.",
+                        "url": {
+                            "raw": "{{baseUrl}}/customers?page=0&size=10&sortBy=id&sortDir=desc",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "customers"
+                            ],
+                            "query": [
+                                {
+                                    "key": "page",
+                                    "value": "0",
+                                    "description": "Page number (0-indexed)"
+                                },
+                                {
+                                    "key": "size",
+                                    "value": "10",
+                                    "description": "Page size"
+                                },
+                                {
+                                    "key": "sortBy",
+                                    "value": "id",
+                                    "description": "Sort field: id, createdAt, updatedAt"
+                                },
+                                {
+                                    "key": "sortDir",
+                                    "value": "desc",
+                                    "description": "Sort direction: asc, desc"
+                                },
+                                {
+                                    "key": "name",
+                                    "value": "John",
+                                    "description": "Search by name (contains)",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "phone",
+                                    "value": "987",
+                                    "description": "Search by phone (starts with)",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "countryCode",
+                                    "value": "+91",
+                                    "description": "Filter by country code",
+                                    "disabled": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Get Customer by ID",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/customers/1",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "customers",
+                                "1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Create Customer",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"firstName\": \"Test\",\n  \"lastName\": \"User\",\n  \"dateOfBirth\": \"1995-06-15\",\n  \"countryCode\": \"+91\",\n  \"countryName\": \"India\",\n  \"phoneNumber\": \"9999999999\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/customers",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "customers"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Update Customer",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"firstName\": \"Updated\",\n  \"lastName\": \"Name\",\n  \"dateOfBirth\": \"1995-06-15\",\n  \"countryCode\": \"+91\",\n  \"countryName\": \"India\",\n  \"phoneNumber\": \"9999999999\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/customers/1",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "customers",
+                                "1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Delete Customer",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/customers/1",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "customers",
+                                "1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Export Customers (CSV)",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/customers/export",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "customers",
+                                "export"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
